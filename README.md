@@ -47,14 +47,6 @@ pip install -r requirements.txt
 ```
 Model defauts to PyTorch CUDA SDPA kernels. If unavailable, model uses math/chunked attention fallback.
 
-## 🤗 Model Access
-
-Download checkpoint from HuggingFace before running scripts:
-
-```bash
-hf download yslan/physiformer checkpoint-best.pt --local-dir checkpoints
-```
-
 ## 🌟 Minimal Inference
 
 The example scripts write predicted rollout samples into each input sample directory as
